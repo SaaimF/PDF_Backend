@@ -72,7 +72,7 @@ app.post('/convert-Word', upload.single('file'), async (req, res) => {
     }
   });
 // MongoDB connection (if needed)
-mongoose.connect('mongodb://localhost:27017/conversions', {
+mongoose.connect('mongodb+srv://astraldevelopers0:Izaan511@cluster1.hkl6s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
